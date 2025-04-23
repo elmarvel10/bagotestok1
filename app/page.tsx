@@ -119,14 +119,11 @@ export default function Home() {
             <div className="max-w-3xl mx-auto px-4 w-full pb-56 md:pb-0">
               <div className="text-center text-white mb-6">
                 <p className="mb-2">
-                  Este es más que un documental, es una{" "}
-                  <span className="font-bold">invitación a liderar con propósito</span> y nos alegra que seas una de las{" "}
-                  <span className="font-bold">primeras personas en verlo</span>.
+                  pronto descubrirás cómo nuestras acciones{" "}
+                  <span className="font-bold"> están logrando un impacto extraordinario.{" "}
+                  
                 </p>
-                <p>
-                  Descubre cómo{" "}
-                  <span className="font-bold">nuestras acciones están logrando un impacto extraordinario</span>.
-                </p>
+
               </div>
 
               {/* Galería de imágenes destacadas en lugar del video */}
