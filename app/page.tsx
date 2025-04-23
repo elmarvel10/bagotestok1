@@ -119,7 +119,7 @@ export default function Home() {
             <div className="max-w-3xl mx-auto px-4 w-full pb-56 md:pb-0">
               <div className="text-center text-white mb-6">
                 <p className="mb-2">
-                  pronto descubrirás cómo nuestras acciones{" "}
+                  Pronto descubrirás cómo nuestras acciones{" "}
                   <span className="font-bold"> están logrando un impacto extraordinario.{" "}
                   
                 </p>
