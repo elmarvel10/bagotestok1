@@ -6,14 +6,14 @@ import { FeaturedImageGallery } from "@/components/featured-image-gallery"
 export default function Home() {
   // Definir las imágenes para la galería
   const galleryImages = [
-    { src: "/images/gallery_RANA01.png", alt: "Rana 1" },
-    { src: "/images/gallery_RANA02.png", alt: "Rana 2" },
-    { src: "/images/gallery_RANA06.png", alt: "Rana 6" },
-    { src: "/images/gallery_PARABAS01.png", alt: "Parabas 1" },
-    { src: "/images/gallery_PARABAS02.png", alt: "Parabas 2" },
-    { src: "/images/gallery_PARABAS03.png", alt: "Parabas 3" },
-    { src: "/images/gallery_NUNA01.png", alt: "Nuna 1" },
-    { src: "/images/gallery_NUNA02.png", alt: "Nuna 2" },
+    { src: "/images/gallery-RANA01.png", alt: "Rana 1" },
+    { src: "/images/gallery-RANA02.png", alt: "Rana 2" },
+    { src: "/images/gallery-RANA06.png", alt: "Rana 6" },
+    { src: "/images/gallery-PARABAS01.png", alt: "Parabas 1" },
+    { src: "/images/gallery-PARABAS02.png", alt: "Parabas 2" },
+    { src: "/images/gallery-PARABAS03.png", alt: "Parabas 3" },
+    { src: "/images/gallery-NUNA01.png", alt: "Nuna 1" },
+    { src: "/images/gallery-NUNA02.png", alt: "Nuna 2" },
   ]
 
   return (
