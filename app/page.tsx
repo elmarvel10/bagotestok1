@@ -118,7 +118,7 @@ export default function Home() {
             {/* Center column with text and video */}
             <div className="max-w-3xl mx-auto px-4 w-full pb-56 md:pb-0">
               <div className="text-center text-white mb-6">
-                <p className="mb-2 text-xl md:text-2xl">
+                <p className="mb-2 text-lg">
                   Pronto descubrirás cómo <span className="font-bold">nuestras acciones</span>
                   <br />
                   están logrando un <span className="font-bold">impacto extraordinario</span>.
