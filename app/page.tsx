@@ -54,7 +54,7 @@ export default function Home() {
       referrerPolicy="strict-origin-when-cross-origin"
       allowFullScreen
     ></iframe>
-    <div className="hidden absolute bottom-4 right-4 w-36 h-36 pointer-events-none">
+    <div className="absolute bottom-4 right-4 w-36 h-36 pointer-events-none">
       <Image
         src="/images/50years.svg"
         alt="50 años"
@@ -75,10 +75,10 @@ export default function Home() {
         {/* Program title with decorative elements */}
         <div className="relative py-6 md:py-12 max-w-5xl mx-auto">
           {/* Decorative elements */}
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 hidden md:block">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 hidden md:block z-[-3]">
             <Image src="/images/flechas.svg" alt="Flechas decorativas" width={100} height={60} />
           </div>
-          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 hidden md:block">
+          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 hidden md:block z-[-3]">
             <Image src="/images/circulo-der.svg" alt="Círculo decorativo" width={100} height={100} />
           </div>
 
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="relative py-8 overflow-visible">
           <div className="flex justify-center items-center min-h-[500px]">
             {/* Left column with wildlife */}
-            <div className="hidden md:block fixed bottom-0 left-0 z-20 w-[300px] h-[400px] overflow-visible" style={{ transform: 'translateX(-10px)' }}>
+            <div className="hidden md:block fixed bottom-0 left-0 z-[-2] w-[300px] h-[400px] overflow-visible" style={{ transform: 'translateX(-10px)' }}>
               <div className="relative w-full h-full">
                 <Image
                   src="/images/loro.png"
@@ -155,7 +155,7 @@ export default function Home() {
               </div>
 
               {/* Mobile-only Parrot Image */}
-              <div className="block md:hidden w-full mt-8 -ml-[106px]">
+              <div className="block md:hidden w-full mt-8 -ml-[106px] z-[-2]">
                 <Image
                   src="/images/loro.png"
                   alt="Loros y rana (móvil)"
@@ -166,7 +166,7 @@ export default function Home() {
               </div>
 
               {/* Mobile-only Puma Image */}
-              <div className="block md:hidden w-full relative overflow-visible" style={{ marginTop: "-360px" }}>
+              <div className="block md:hidden w-full relative overflow-visible z-[-1]" style={{ marginTop: "-360px" }}>
                 <div className="absolute right-[-170px]">
                   <Image
                     src="/images/felino.png"
@@ -181,7 +181,7 @@ export default function Home() {
             </div> {/* End of Center column */}
 
             {/* Right column with mountain lion */}
-            <div className="hidden md:block fixed bottom-0 right-0 z-20 w-[500px] h-[600px] overflow-visible" style={{ transform: 'translate(140px, 130px)' }}>
+            <div className="hidden md:block fixed bottom-0 right-0 z-[-1] w-[500px] h-[600px] overflow-visible" style={{ transform: 'translate(140px, 130px)' }}>
               <div className="puma-container">
                 <Image
                   src="/images/felino.png"
