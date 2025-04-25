@@ -54,7 +54,7 @@ export default function Home() {
       referrerPolicy="strict-origin-when-cross-origin"
       allowFullScreen
     ></iframe>
-    <div className="absolute bottom-4 right-4 w-36 h-36 pointer-events-none">
+    <div className="absolute bottom-4 right-4 w-36 h-36 pointer-events-none hidden md:block">
       <Image
         src="/images/50years.svg"
         alt="50 años"
