@@ -38,21 +38,6 @@ export function FeaturedImageGallery({ images }: FeaturedImageGalleryProps) {
           priority
           className="object-cover transition-opacity duration-300"
         />
-        
-        {/* Icono de sostenibilidad en la esquina */}
-        <div className="hidden md:block absolute bottom-4 right-4 w-36 h-36">
-          <Image
-            src="/images/manoo6.png"
-            alt="Sostenibilidad"
-            width={144}
-            height={144}
-            className="w-full h-full object-contain"
-          />
-        </div>
-
-        {/* Indicador visual de hover sin texto */}
-        <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 hover:opacity-100 transition-opacity">
-        </div>
       </div>
 
       {/* Grid de miniaturas */}

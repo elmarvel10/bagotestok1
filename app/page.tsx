@@ -54,10 +54,10 @@ export default function Home() {
       referrerPolicy="strict-origin-when-cross-origin"
       allowFullScreen
     ></iframe>
-    <div className="hidden md:block absolute bottom-4 right-4 w-36 h-36 pointer-events-none">
+    <div className="hidden absolute bottom-4 right-4 w-36 h-36 pointer-events-none">
       <Image
-        src="/images/manoo6.png"
-        alt="Sostenibilidad"
+        src="/images/50years.svg"
+        alt="50 años"
         width={144}
         height={144}
         className="w-full h-full object-contain"
@@ -86,8 +86,8 @@ export default function Home() {
           <div className="text-center">
             <div className="flex justify-center my-2 md:my-4">
               <Image
-                src="/images/programa-ok.svg"
-                alt="PROGRAMA BIENESTAR BAGÓ"
+                src="/images/manitobago.svg"
+                alt="Manito Bagó"
                 width={500}
                 height={150}
                 className="w-full max-w-[500px]"
