@@ -2,5 +2,6 @@
   "version": 2,
   "buildCommand": "npm install --legacy-peer-deps && npm run build",
   "installCommand": "npm install --legacy-peer-deps",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "ignoreCommand": "if [ -f pnpm-lock.yaml ]; then echo \"Error: pnpm-lock.yaml detected\"; exit 1; fi"
 } 
